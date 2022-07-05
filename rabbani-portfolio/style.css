@@ -8,6 +8,8 @@ body {
 .top-banner {
 	background-image: url("images/top-banner.png");
 	background-repeat: no-repeat;
+}
+section {
 	padding-bottom: 150px;
 }
 .half-width {
@@ -24,7 +26,8 @@ h1 {
 h2 {
 	font-size: 40px;
 }
-h1 span {
+h1 span,
+.span {
 	color: orange;
 }
 .btn {
@@ -40,4 +43,18 @@ h1 span {
 	background-image: url("images/dream-bg.png");
 	background-repeat: no-repeat;
 	background-position: right;
+}
+.experience {
+	background-image: url("images/exp-bg.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.experience-items div {
+	box-shadow: 5px 10px 40px gray;
+}
+#full-stack {
+	border-left: 7px solid tomato;
+}
+#baby-web {
+	border-left: 7px solid blue;
 }
